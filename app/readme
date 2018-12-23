@@ -1,0 +1,16 @@
+project jSON w socrata open API: https://data.cityofnewyork.us/resource/qiz3-axqb.json 
+
+visual 1: map of accidents in queens
+
+visuak 2: on update() of most recent cross street of accident
+
+https://data.cityofnewyork.us/resource/qiz3-axqb.json?
+
+$$app_token=nYhSiVxtPuZrvzgtZpAV1m64q6666666	
+
+1. create server
+2. get api to call data
+3. filter data
+4. get data on to server /data
+5. use javascript to manipulate data
+6. link javascript and python data

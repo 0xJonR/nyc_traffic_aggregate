@@ -1,0 +1,38 @@
+<!--templates/index.html -->
+<!-- Jonathan Rodirguez, UB 2018 CSE115 Project Part 2 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+    	<!-- MapBox Shit Goes Here -->               
+<!--	<script src="{{ url_for('static', filename="js/plotly-latest.min.js")}}></script> -->
+	 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet'>
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <title>Jawn Project</title>
+  </head>
+  <body>
+    <h1>Last 666 Accidents in NYC: </h1>
+    <div id="mapshit" style="width:90%;height:550px;"> </div>
+    <a href='https://data.cityofnewyork.us/resource/qiz3-axqb' style="text-align:left">API Source </a>
+	<a href='/locations' style="text-align:center">locations</a>
+	<a href='/zipcodes' style="text-align:right" >zip codes </a>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+	<script src="{{ url_for('static', filename="js/main.js")}}"></script>
+
+
+
+	<h1>Top 10 Zipcodes by Accidents:</h1>
+	<div id="zipshit" style="width:90%; height:550px"></div>
+	<div style="color:gold">Jonathan Rodriguez CSE 115 Project Part Two </div>
+  </body>
+</html>
