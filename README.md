@@ -1,2 +1,2 @@
 # nyc_traffic_aggregate
-grabs 600 traffic accidents in nyc via RESTFUL api use 
+Using python to POST api calls, uses Flask to store api calls and push to a javascript front-end to display 600 most recent traffic accidents in NYC. 
