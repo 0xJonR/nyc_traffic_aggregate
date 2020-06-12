@@ -1,2 +1,11 @@
 # nyc_traffic_aggregate
-Using python to POST api calls, uses Flask to store api calls and push to a javascript front-end to display 600 most recent traffic accidents in NYC. 
+
+--- 
+
+### A web-app written in Python via Flask primarily with other APIs to show a heatmap of traffic accidents in NYC. 
+
+APIs Used:
+ - Flask 
+ - TODO 
+ - TODO 
+ - TODO 
