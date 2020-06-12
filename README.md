@@ -6,6 +6,6 @@
 
 APIs Used:
  - Flask 
- - TODO 
- - TODO 
- - TODO 
+ - JQuery 3.3.1 
+ - Plotly JS 
+ - Socrata Open Data (https://data.cityofnewyork.us/resource/qiz3-axqb.json) 
